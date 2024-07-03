@@ -1,0 +1,199 @@
+.navbar {
+    justify-content: center;
+  }
+  .nav-item{
+    color: black;
+  }
+  
+  .navbar-nav {
+    flex-direction: row;
+  }
+  
+  .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .nav-link {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .carousel-inner {
+        height: 500px;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }}
+
+
+
+    
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #6c5ce7; /* dark purple */
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #7a6fcf; /* light purple */
+  }
+  
+  a:hover {
+    color: #5c49b5; /* dark purple hover */
+  }
+  
+  /* Quiz styles */
+  
+  .quiz-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #6c5ce7; /* dark purple */
+  }
+  
+  .answer-options {
+    margin-top: 20px;
+  }
+  
+  .form-check {
+    margin-bottom: 20px;
+  }
+  
+  .form-check-label {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .form-check-input:checked ~ .form-check-label {
+    color: #7a6fcf; /* light purple */
+  }
+  
+  .next-btn {
+    background-color: #7a6fcf; /* light purple */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .next-btn:hover {
+    background-color: #5c49b5; /* dark purple hover */
+  }
+  
+  .result-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-modal.show {
+    display: block;
+  }
+  
+  .result-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #6c5ce7; /* dark purple */
+  }
+  
+  .result-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .btn-secondary {
+    background-color: #5c49b5; /* dark purple */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #7a6fcf; /* light purple hover */
+  }
+  * Navbar styles */
+
+  .navbar {
+    background-color: #6c5ce7; /* dark purple */
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-brand {
+    color: #fff; /* light text color */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .navbar-brand:hover {
+    color: #7a6fcf; /* light purple hover */
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: #fff; /* light text color */
+    font-size: 18px;
+  }
+  
+  .nav-link:hover {
+    color: #7a6fcf; /* light purple hover */
+  }
+  body {
+    background-color: #e9d8fd; /* light purple */
+  }    
